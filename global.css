@@ -8,3 +8,14 @@
   }
 } 
 
+@layer components {
+  .download-glow {
+    @apply relative;
+  }
+  .download-glow::after {
+    @apply content-[''] absolute inset-0 -z-10 bg-zinc-300/20 blur-sm rounded-lg opacity-0 transition-opacity duration-300;
+  }
+  .download-glow:hover::after {
+    @apply opacity-100;
+  }
+}
