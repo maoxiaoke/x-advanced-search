@@ -5,7 +5,7 @@ import Particles from "./components/particles";
 const navigation = [
   { name: "Download", href: "/" },
   { name: "Contact", href: "https://x.com/xiaokedada" },
-  { name: "Privacy Policy", href: "https://x.com/xiaokedada" },
+  // { name: "Privacy Policy", href: "/privacy-policy" },
 ];
 
 export default function Home() {
