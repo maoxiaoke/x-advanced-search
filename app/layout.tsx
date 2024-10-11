@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "x advance search",
-    template: "%s | chronark.com",
+    default: "x advanced search",
+    template: "%s | x-advanced-search.nazha.co",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "X Advanced Search is a free chrome extension that invoke advanced search of X.",
   openGraph: {
-    title: "chronark.com",
+    title: "x-advanced-search.nazha.co",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "X Advanced Search is a free chrome extension that invoke advanced search of X.",
+    url: "https://x-advanced-search.nazha.co",
+    siteName: "x-advanced-search.nazha.co",
     images: [
       {
         url: "https://chronark.com/og.png",
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "xiaokedada",
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.ico",
   },
 };
 const inter = Inter({
