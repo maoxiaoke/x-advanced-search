@@ -3,7 +3,7 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Download", href: "/" },
+  { name: "Download", href: "https://chromewebstore.google.com/detail/x-advanced-search/oiheofilnhemgefhlaogkbmdlnhhikci" },
   { name: "Contact", href: "https://x.com/xiaokedada" },
   // { name: "Privacy Policy", href: "/privacy-policy" },
 ];
