@@ -9,11 +9,12 @@ export const metadata: Metadata = {
     default: "x advanced search",
     template: "%s | x-advanced-search.nazha.co",
   },
-  description: "X Advanced Search is a free chrome extension that invoke advanced search of X.",
+  description:
+    "X Advanced Search is a free chrome extension that invoke advanced search of X/Google and more.",
   openGraph: {
     title: "x-advanced-search.nazha.co",
     description:
-      "X Advanced Search is a free chrome extension that invoke advanced search of X.",
+      "X Advanced Search is a free chrome extension that invoke advanced search of X/Google and more.",
     url: "https://x-advanced-search.nazha.co",
     siteName: "x-advanced-search.nazha.co",
     images: [
@@ -66,8 +67,9 @@ export default function RootLayout({
         <Analytics />
       </head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+        className={`bg-black ${
+          process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+        }`}
       >
         {children}
       </body>
